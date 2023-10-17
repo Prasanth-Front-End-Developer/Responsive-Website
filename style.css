@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@600&family=Edu+SA+Beginner:wght@500&family=Montserrat:ital,wght@0,300;0,700;1,700&family=Permanent+Marker&family=Phudu:wght@500&family=Poppins:wght@300;400&family=Roboto:wght@300;500;700&family=Rubik:ital,wght@0,500;1,500&family=Ubuntu&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "Poppins","sans-serif";
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navbar */
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.bold{
+    font-size: 25px;
+}
+li{
+    padding: 20px;
+}
+.nav-link{
+    font-size: 55px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+}
+
+/* Home */
+
+span{
+    color: blue;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+}
+
+/* Contact */
+
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2),-1px -1px 5px rgba(0,0,0,.5);
+    border-radius: 30px;
+}
